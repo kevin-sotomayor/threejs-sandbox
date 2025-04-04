@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+	<link rel="stylesheet" href="./src/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ThreeJs Sandbox</title>
   </head>
   <body>
-    <div class="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="app">
+		<div id="imageContainer">
+			<img src="./public/pp.png" id="myImage" alt="">
+		</div>
+	</div>
+    <!-- <script type="module" src="/src/base.js"></script> -->
+	 <script type="module" src="/src/shaders.js"></script>
   </body>
 </html>
